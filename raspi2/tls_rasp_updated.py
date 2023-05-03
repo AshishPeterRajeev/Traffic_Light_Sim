@@ -13,8 +13,8 @@ import RPi.GPIO as GPIO
 GPIO.setmode(GPIO.BCM)
 
 list_of_vehicles = ["bicycle", "car", "motorbike", "bus", "truck", "train"]
-camera_feeds = {"lane1": 0,"lane2": 0,"lane3": 2,"lane4": 3,}
-# camera_feeds = {"Lane 1": "traffic1.mp4","Lane 2": "traffic2.mp4","Lane 3": "traffic3.mp4","Lane 4": "traffic4.mp4",}
+# camera_feeds = {"lane1": 0,"lane2": 0,"lane3": 2,"lane4": 3,}
+camera_feeds = {"Lane 1": "traffic1.mp4","Lane 2": "traffic2.mp4","Lane 3": "traffic3.mp4","Lane 4": "traffic4.mp4",}
 
 green_times = {"Lane 1": 10,"Lane 2": 10,"Lane 3": 10,"Lane 4": 10,}
 
